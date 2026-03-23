@@ -13,10 +13,10 @@ while True:
     if guess < secret_number:
         print("Ваше число меньше загаданного.")
 
-    if guess > secret_number:
+    elif guess > secret_number:
         print("Ваше число больше загаданного.")
         
-    if guess == secret_number:
+    elif guess == secret_number:
         break
     
 print('Отличная интуиция! Вы угадали число :)') 
